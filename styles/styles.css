@@ -1,0 +1,523 @@
+html {
+  font-size: 18px;
+  color: #000;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+}
+
+/* || General Styles*/
+.section__content {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 60px 0;
+}
+
+/* || Reusable Styles */
+.black-btn {
+  padding: 20px 35px;
+  border-radius: 14px;
+  background: var(--Dark, #191a23);
+  color: #fff;
+  font-size: 20px;
+  border-style: none;
+}
+
+.highlight-header {
+  font-size: 40px;
+  font-weight: 500;
+  background: var(--Green, #b9ff66);
+  padding: 0px 7px;
+  border-radius: 7px;
+}
+
+.highlight-description {
+  width: 580px;
+}
+
+.servicesSection__heading {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+}
+
+/* || Navigation*/
+
+.navigation__menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  font-size: 20px;
+}
+
+.navigation__menu-content {
+  text-decoration: none;
+  line-height: 28px;
+  color: #000;
+}
+
+.navigation__menu-btn {
+  padding: 20px 35px;
+  border-radius: 14px;
+  border: 1px solid var(--Dark, #191a23);
+  background-color: transparent;
+}
+
+/* || Hero */
+.heroSection {
+  justify-content: space-between;
+
+  align-items: flex-start;
+}
+
+.heroSection__header {
+  font-size: 60px;
+  font-weight: 500;
+  width: 531px;
+}
+
+.heroSection__text {
+  font-size: 20px;
+  width: 498px;
+}
+
+.heroSection__photo {
+  width: 600.462px;
+  height: 515px;
+}
+
+/* || Logo Section */
+.logosSection-logo {
+  filter: grayscale(100%);
+  width: 128.626px;
+  height: 48px;
+}
+
+/* || Services Section */
+.servicesSection-card {
+  border-radius: 45px;
+  border: 1px solid var(--Dark, #191a23);
+  background: var(--Grey, #f3f3f3);
+  box-shadow: 0px 5px 0px 0px #191a23;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  width: 470px;
+}
+
+.servicesSection__cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+
+.card__header {
+  display: flex;
+  flex-direction: column;
+}
+
+.Cardheader {
+  font-size: 30px;
+  font-weight: 500;
+  padding: 0px 7px;
+  display: flex;
+  border-radius: 7px;
+  background: var(--Green, #b9ff66);
+  gap: 10px;
+}
+
+.learnMore-btn {
+  margin-top: 93px;
+  align-items: center;
+  display: flex;
+  gap: 15px;
+}
+
+.learnMore-txt {
+  font-size: 20px;
+}
+
+.card-image {
+  width: 210px;
+  height: 166.047px;
+}
+
+.green {
+  background: var(--Green, #b9ff66);
+}
+
+.black {
+  background: var(--Dark, #191a23);
+}
+
+.white-highlight {
+  background: #fff;
+}
+
+.white-txt {
+  color: #fff;
+}
+
+/* || Let’s make things happen Section */
+.proposalSection {
+  border-radius: 45px;
+  background: var(--Grey, #f3f3f3);
+  padding: 0px 60px;
+}
+
+.proposalSection__description {
+  display: flex;
+  flex-flow: column;
+  align-items: baseline;
+  gap: 26px;
+}
+
+.proposalSection__header {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.proposalSection__txt {
+  width: 500px;
+}
+
+/* || Case Studies Section */
+.caseStudies-section__content {
+  border-radius: 45px;
+  background: var(--Dark, #191a23);
+  padding: 70px 60px;
+  display: flex;
+  flex-direction: row;
+  gap: 64px;
+}
+
+.content-description-txt {
+  color: #fff;
+}
+
+.content-description-link {
+  color: var(--Green, #b9ff66);
+  font-size: 20px;
+}
+
+/* || Our Working Process Section */
+.workingProcess-txt {
+  width: 292px;
+}
+
+.workingProcess-section__cards {
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
+}
+
+.workingProcess-section-card {
+  border-radius: 45px;
+  border: 1px solid #191a23;
+  background: var(--Grey, #f3f3f3);
+  box-shadow: 0px 5px 0px 0px #191a23;
+  padding: 41px 60px;
+}
+
+.greenOne {
+  background: var(--Green, #b9ff66);
+}
+
+.workingProcess-section-heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading-side {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.workingProcess-section-number {
+  font-size: 60px;
+  font-weight: 500;
+}
+
+.workingProcess-section-header {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+/* || Team */
+.teamtext {
+  width: 473px;
+}
+
+.team-card {
+  border-radius: 45px;
+  border: 1px solid #191a23;
+  background: #fff;
+  box-shadow: 0px 5px 0px 0px #191a23;
+  padding: 40px 35px;
+  display: flex;
+  flex-flow: column;
+  gap: 20px;
+  width: 310px;
+  height: 270px;
+}
+
+.team__cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 27px;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-card-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.team-card__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.team-card__name {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  margin-top: 40px;
+}
+
+/* || Testimonals Section */
+.testimonals-container {
+  border-radius: 45px;
+  background: var(--Dark, #191a23);
+  padding: 84px 0px 68px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  flex-direction: column;
+  color: #fff;
+}
+
+.testimonals-container__section {
+  width: 606px;
+  height: 266px;
+  background-image: url("../photos/Bubble.svg");
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonals-container__section-txt {
+  width: 502px;
+  padding-bottom: 25px;
+}
+
+.testimonals-container__quote {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 500px;
+  margin: 20px 0px 124px 0px;
+}
+
+.testimonals-name {
+  color: var(--Green, #b9ff66);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.testimonals-sidebar {
+  display: flex;
+  align-items: center;
+  width: 700px;
+  justify-content: space-around;
+}
+
+/* || Contact Us Section */
+.contactUs-section__radiobtn {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+}
+
+.contactUs-section__input {
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputsSection {
+  padding: 60px 100px 80px 100px;
+  border-radius: 45px;
+  background: var(--Grey, #f3f3f3);
+  width: 1200px;
+  background-image: url("../photos/InputIcon.svg");
+  background-repeat: no-repeat;
+  background-position: right -324px center;
+}
+
+input[type="radio"] {
+  accent-color: #b9ff66;
+  height: 28px;
+  width: 28px;
+  order: 1px solid #000;
+}
+
+.form-control {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contactUs-section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+}
+
+#survey-form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin: 25px 0px 5px 0px;
+  font-size: 16px;
+}
+
+.form {
+  width: 492px;
+  border-radius: 14px;
+  border: 1px solid #000;
+  background: #fff;
+  padding: 18px 30px;
+}
+
+#text {
+  height: 190px;
+}
+
+.messagebtn {
+  width: 556px;
+}
+
+/* || Footer */
+.footerSection {
+  padding: 55px 60px 50px 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  border-radius: 45px 45px 0px 0px;
+  background: var(--Dark, #191a23);
+  color: #fff;
+}
+
+.footer-nav {
+  display: flex;
+  align-items: center;
+  gap: 155px;
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.footer-menu__section {
+  text-decoration: underline;
+}
+
+.footer-socIcons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.footerContainer {
+  padding-bottom: 0px;
+}
+
+.footer-contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 154px;
+  align-items: center;
+}
+
+.footer-contact__info {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  width: 290px;
+}
+
+.footer-contact__info-values {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-contact__info-header {
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 7px;
+  background: var(--Green, #b9ff66);
+  width: 115px;
+  color: #000;
+  padding: 0px 7px;
+}
+
+.footer-contact__input {
+  border-radius: 14px;
+  background-color: #292a32;
+  padding: 58px 40px;
+  display: flex;
+  gap: 20px;
+}
+
+#footer_mail {
+  border-radius: 14px;
+  border: 1px solid #fff;
+  padding: 22px 35px;
+  width: 285px;
+  background-color: transparent;
+}
+
+.footer_btn {
+  border-radius: 14px;
+  background: var(--Green, #b9ff66);
+  padding: 20px 35px;
+  border-style: none;
+  font-size: 20px;
+}
+
+.footer__copyright {
+  align-items: flex-start;
+  width: 1140px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
